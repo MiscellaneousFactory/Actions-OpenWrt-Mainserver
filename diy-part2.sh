@@ -20,4 +20,4 @@ git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
 # git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 git clone https://github.com/Licolnlee/Feed-Licolnlee package/Feed-Licolnlee
 git clone https://github.com/fw876/helloworld package/helloworld
-git clone https://github.com/huchanghui123/Lienol-openwrt-packages-backup packages/openwrt-package
+git clone https://github.com/huchanghui123/Lienol-openwrt-packages-backup packages/Lienol-openwrt-packages-backup
