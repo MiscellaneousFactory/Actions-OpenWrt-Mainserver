@@ -15,4 +15,5 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i 's/\#src-git helloworld/\src-git helloworld/g' ./feeds.conf.default
 sed -i '$a src-git small https://github.com/V2RaySSR/small' feeds.conf.default
-sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
+# sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package.git' feeds.conf.default
