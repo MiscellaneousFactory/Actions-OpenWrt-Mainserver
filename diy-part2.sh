@@ -17,5 +17,4 @@ git clone https://github.com/rufengsuixing/luci-app-autoipsetadder package/luci-
 #git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
 #git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 git clone https://github.com/Licolnlee/Feed-Licolnlee package/Feed-Licolnlee
-git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 
