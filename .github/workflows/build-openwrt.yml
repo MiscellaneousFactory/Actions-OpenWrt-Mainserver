@@ -37,6 +37,10 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
+secrets:
+ TELEGRAM_CHAT_ID: -956000601
+ TELEGRAM_BOT_TOKEN: 1355787466:AAEwCWx1Ulx2_rDW5jQpOEZLmvtIkZ139tQ
+
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -90,8 +94,8 @@ jobs:
       uses: P3TERX/ssh2actions@v1.0.0
       if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
       env:
-        TELEGRAM_CHAT_ID: ${{ -956000601 }}
-        TELEGRAM_BOT_TOKEN: ${{ 1355787466:AAEwCWx1Ulx2_rDW5jQpOEZLmvtIkZ139tQN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
 
     - name: Download package
       id: package
